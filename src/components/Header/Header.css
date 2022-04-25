@@ -1,0 +1,32 @@
+.navbar-toggler{
+  border: none !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+  background-image: url(https://icon-library.com/images/hamburger-icon-svg/hamburger-icon-svg-11.jpg) !important;
+}
+
+@media (min-width: 768px) {
+  .img1{
+    width: 80%;
+  }
+}
+
+@media (min-width: 995px) {
+
+  .navbar-nav a{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .img1{
+    width: 50%;
+    max-width: 40%;
+  }
+
+  .navbar-nav a{
+    font-size: 2rem;
+  }
+}

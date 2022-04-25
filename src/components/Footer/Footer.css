@@ -1,0 +1,31 @@
+.footer-logo{
+  width: 60%;
+}
+
+.icons{
+  max-width: 600px;
+}
+.icons > *{
+  width: 70%;
+  height:40px;
+}
+
+@media (min-width: 768px) {
+  .footer-logo{
+    width: 50%;
+  }
+}
+
+@media (min-width: 995px) {
+
+  .footer-logo{
+    width: 40%;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .footer-logo{
+    width: 40%;
+  }
+}
