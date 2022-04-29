@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import './App.css';
 import Hero from './components/Hero/Hero';
 import Header from './components/Header/Header'
@@ -10,14 +11,16 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-      <div className="bottom-header">
-        <Header />
-        <Hero />
-      </div>
-      <Hours />
-      <Menu />
-      <FetchingData />
-      <Footer/>
+      <Suspense fallback={null}>
+        <div className="bottom-header">
+          <Header />
+          <Hero />
+        </div>
+        <Hours />
+        <Menu />
+        <FetchingData />
+        <Footer />
+      </Suspense>
     </>
   );
 }

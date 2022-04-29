@@ -6,19 +6,28 @@
   background-image: url(https://icon-library.com/images/hamburger-icon-svg/hamburger-icon-svg-11.jpg) !important;
 }
 
+input{
+  display: none;
+}
+
+.second > *{
+  margin: 0.3rem;
+}
+
 @media (min-width: 768px) {
   .img1{
     width: 80%;
   }
-}
 
-@media (min-width: 995px) {
-
-  .navbar-nav a{
-    font-size: 1.5rem;
+  .navbar{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-items: center;
   }
-
 }
+
+
 
 @media (min-width: 1440px) {
   .img1{
@@ -26,7 +35,8 @@
     max-width: 40%;
   }
 
-  .navbar-nav a{
+  .navbar-nav a, .second > *{
     font-size: 2rem;
   }
+
 }

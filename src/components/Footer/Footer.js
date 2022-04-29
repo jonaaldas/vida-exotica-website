@@ -16,7 +16,7 @@ function Footer(){
     </div>
 
     <div className="footer-copyright text-center py-3">© {date.getFullYear()} Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="https://www.jonathanaldas.com/">Aldas Media</a>
     </div>
 
 </footer>

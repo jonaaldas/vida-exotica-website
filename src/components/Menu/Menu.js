@@ -12,7 +12,12 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
+//
+import { useTranslation } from "react-i18next";
+
 function Menu() {
+
+  const {t} = useTranslation(["Menu"])
   return (
 
     <Card className="text-white">
@@ -45,11 +50,11 @@ function Menu() {
         </div>
       </div>
       <div className='card-menu-cont'>
-        <Card.Title>Menu</Card.Title>
+        <Card.Title>{t("Menú")}</Card.Title>
         <Card.Text>
-          Mira nuestra opciones
+        {t("Mira nuestras opciones")}
         </Card.Text>
-        <Button>Menu</Button>
+        <Button>{t("Mira el Menú")}</Button>
       </div>
 
     </Card>
